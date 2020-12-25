@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 719cdd8e95ee1114f86bfe5913cea2e9, type: 3}
+  m_Name: FE_Catcher_2
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 8518050613785936250, guid: e0f4a741548f1e444956e9c08e1c22d8, type: 3}
+  id: 4
+  level: 2
+  uiname: FE_Catcher_2
+  rarity: 1
+  icon: {fileID: 21300000, guid: b3c5db0cd9bd7374e807ec3d30e261b7, type: 3}
+  cost: 10

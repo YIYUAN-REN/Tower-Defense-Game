@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 719cdd8e95ee1114f86bfe5913cea2e9, type: 3}
+  m_Name: GB_Sandglass_3
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 6789978493727216341, guid: 323299f7d7fe181439b4c594b561f107, type: 3}
+  id: 11
+  level: 3
+  uiname: GB_Sandglass_3
+  rarity: 2
+  icon: {fileID: 21300000, guid: 02cfdce8cb457ea4f815cc107db8353d, type: 3}
+  cost: 20

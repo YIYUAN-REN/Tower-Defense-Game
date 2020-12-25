@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 719cdd8e95ee1114f86bfe5913cea2e9, type: 3}
+  m_Name: HM_cannon_3
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 6235437321919699274, guid: d2a066b9065b9d943919558dae3852ff, type: 3}
+  id: 12
+  level: 3
+  uiname: HM_cannon_3
+  rarity: 1
+  icon: {fileID: 21300000, guid: 10852d43611185b409ab4804a7866ef4, type: 3}
+  cost: 10

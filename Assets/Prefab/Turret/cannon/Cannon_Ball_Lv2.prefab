@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3766420277057070065
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7435474265571705570}
+  - component: {fileID: 267635556569854386}
+  - component: {fileID: 83451378583427715}
+  - component: {fileID: 418948803216197406}
+  m_Layer: 0
+  m_Name: Cannon_Ball_Lv2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7435474265571705570
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3766420277057070065}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 33.01, y: 0.71, z: -56.4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3086577534402607066}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &267635556569854386
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3766420277057070065}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!135 &83451378583427715
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3766420277057070065}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &418948803216197406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3766420277057070065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7dec0cdb977546e085cd814e7f93042, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 40
+  speed: 20
+  explosionEffect: {fileID: 4384360513511648882, guid: a19ef178b66ecbe43ba0f2655cadcf77,
+    type: 3}
+  explosionRadius: 5
+--- !u!1001 &3082067762638602120
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7435474265571705570}
+    m_Modifications:
+    - target: {fileID: 1298584887169390, guid: 5e1ad3b6854063e4abe3e8c1b81d727a, type: 3}
+      propertyPath: m_Name
+      value: TB_CanonTower_Lvl2_Ball
+      objectReference: {fileID: 0}
+    - target: {fileID: 4518610269964370, guid: 5e1ad3b6854063e4abe3e8c1b81d727a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 4518610269964370, guid: 5e1ad3b6854063e4abe3e8c1b81d727a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 4518610269964370, guid: 5e1ad3b6854063e4abe3e8c1b81d727a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 4518610269964370, guid: 5e1ad3b6854063e4abe3e8c1b81d727a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4518610269964370, guid: 5e1ad3b6854063e4abe3e8c1b81d727a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4518610269964370, guid: 5e1ad3b6854063e4abe3e8c1b81d727a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4518610269964370, guid: 5e1ad3b6854063e4abe3e8c1b81d727a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4518610269964370, guid: 5e1ad3b6854063e4abe3e8c1b81d727a, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4518610269964370, guid: 5e1ad3b6854063e4abe3e8c1b81d727a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4518610269964370, guid: 5e1ad3b6854063e4abe3e8c1b81d727a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4518610269964370, guid: 5e1ad3b6854063e4abe3e8c1b81d727a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5e1ad3b6854063e4abe3e8c1b81d727a, type: 3}
+--- !u!4 &3086577534402607066 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4518610269964370, guid: 5e1ad3b6854063e4abe3e8c1b81d727a,
+    type: 3}
+  m_PrefabInstance: {fileID: 3082067762638602120}
+  m_PrefabAsset: {fileID: 0}
