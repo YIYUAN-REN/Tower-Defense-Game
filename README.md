@@ -3,7 +3,7 @@ Samsara is a single player tower defense game where the player is supposed to de
 ![image](https://github.com/YIYUAN-REN/Tower-Defense-Game/blob/main/show.png) 
 
 # Demo and Website
-Demo Link: [click here](https://www.youtube.com/watch?v=HpRXMqrT10M&feature=youtu.be&ab_channel=%E9%A3%98%E6%A8%B1%E7%9A%84%E9%A2%91%E9%81%93)  
+Demo: [click here](https://www.youtube.com/watch?v=HpRXMqrT10M&feature=youtu.be&ab_channel=%E9%A3%98%E6%A8%B1%E7%9A%84%E9%A2%91%E9%81%93)  
 Website: [click here](https://lxwmary.wixsite.com/samsara)
 
 # Overview
